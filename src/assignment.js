@@ -5,11 +5,11 @@ const assignment = {};
 
 
 function sumOfNumbers(arrayOfNumbers) {
-  const sumValues = arrayOfNumbers.reduced((a, b) => a+b)
+  const sumValues = arrayOfNumbers.reduce((a, b) => a+b)
   return sumValues;
     
 }
-
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -30,7 +30,7 @@ for(var i = 0; i < arrayOfNumbers.length; i++){
     return count;
   
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+ assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
